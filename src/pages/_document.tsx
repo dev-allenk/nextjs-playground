@@ -49,6 +49,7 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <Main />
+          <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
           <NextScript />
         </body>
       </Html>

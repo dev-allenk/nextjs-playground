@@ -43,6 +43,10 @@ export default class MyDocument extends Document {
             href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"
           />
           <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap"
+            rel="stylesheet"
+          />
+          <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           ></link>
@@ -56,3 +60,5 @@ export default class MyDocument extends Document {
     );
   }
 }
+
+//font-family: 'Noto Serif', serif;

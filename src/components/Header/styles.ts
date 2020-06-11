@@ -6,8 +6,7 @@ export const Header = styled.header`
   align-items: center;
 
   padding: 0 1em;
-  /* TODO: width에서 padding* 2 빼기 */
-  width: 100vw;
+  width: calc(100vw - 2em);
   height: 56px;
 `;
 
@@ -18,7 +17,7 @@ export const Logo = styled.span`
 
   font-family: "Noto Serif", serif;
   font-size: 1.75rem;
-  line-height: 37px;
+  line-height: 35px;
   text-align: center;
 
   background: #000;

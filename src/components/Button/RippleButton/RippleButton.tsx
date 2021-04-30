@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import * as S from "./style";
 
 export default function RippleButton({
@@ -6,5 +6,17 @@ export default function RippleButton({
 }: {
   children: React.ReactNode;
 }) {
-  return <S.Button>{children}</S.Button>;
+  const [isRippling, setRippling] = useState(false);
+
+  const handleClick = () => {
+    setRippling(true);
+    setTimeout(() => setRippling(false), 1500);
+  };
+
+  return (
+    <S.Button onClick={handleClick}>
+      {isRippling && <S.Ripple />}
+      {children}
+    </S.Button>
+  );
 }

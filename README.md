@@ -1,1 +1,1 @@
-# ts-and-jest-practice
+# next.js playground

@@ -1,21 +1,46 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import * as S from "./style";
+
+interface Coord {
+  x: number;
+  y: number;
+  hash: string | number;
+}
 
 export default function RippleButton({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const [isRippling, setRippling] = useState(false);
+  const buttonRef = useRef<HTMLButtonElement>(null);
+  const [ripples, setRippling] = useState([] as Coord[]);
 
-  const handleClick = () => {
-    setRippling(true);
-    setTimeout(() => setRippling(false), 1500);
+  const ripple = {
+    start: (coord: Coord) => setRippling((s) => [...s, coord]),
+    end: (hash: string | number) =>
+      setRippling((s) => s.filter((coord) => coord.hash !== hash)),
+  };
+
+  const handleClick = (e: React.MouseEvent) => {
+    if (!buttonRef.current) return;
+    const clientRect = buttonRef.current.getBoundingClientRect();
+
+    ripple.start({
+      x: e.clientX - clientRect.left,
+      y: e.clientY - clientRect.top,
+      hash: Date.now(),
+    });
   };
 
   return (
-    <S.Button onClick={handleClick}>
-      {isRippling && <S.Ripple />}
+    <S.Button ref={buttonRef} onClick={handleClick}>
+      {ripples.map((coord) => (
+        <S.Ripple
+          key={coord.hash}
+          style={{ top: coord.y, left: coord.x }}
+          onAnimationEnd={() => ripple.end(coord.hash)}
+        />
+      ))}
       {children}
     </S.Button>
   );

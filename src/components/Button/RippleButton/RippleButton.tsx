@@ -9,8 +9,10 @@ interface Coord {
 
 export default function RippleButton({
   children,
+  onClick,
 }: {
   children: React.ReactNode;
+  onClick?: React.MouseEventHandler;
 }) {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const [ripples, setRippling] = useState([] as Coord[]);
@@ -30,6 +32,8 @@ export default function RippleButton({
       y: e.clientY - clientRect.top,
       hash: Date.now(),
     });
+
+    onClick?.(e);
   };
 
   return (

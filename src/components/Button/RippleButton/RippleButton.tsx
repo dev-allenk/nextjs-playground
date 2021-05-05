@@ -1,19 +1,17 @@
 import React, { useRef, useState } from "react";
 import * as S from "./style";
 
+interface RippleButtonProps extends React.HTMLProps<HTMLButtonElement> {
+  onClick?: React.MouseEventHandler;
+}
+
 interface Coord {
   x: number;
   y: number;
   hash: string | number;
 }
 
-export default function RippleButton({
-  children,
-  onClick,
-}: {
-  children: React.ReactNode;
-  onClick?: React.MouseEventHandler;
-}) {
+export default function RippleButton({ children, onClick }: RippleButtonProps) {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const [ripples, setRippling] = useState([] as Coord[]);
 

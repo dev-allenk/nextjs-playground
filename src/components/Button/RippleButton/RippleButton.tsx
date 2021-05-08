@@ -3,6 +3,7 @@ import * as S from "./style";
 
 interface RippleButtonProps extends React.HTMLProps<HTMLButtonElement> {
   onClick?: React.MouseEventHandler;
+  rippleColor?: string;
 }
 
 interface Coord {
@@ -11,7 +12,11 @@ interface Coord {
   hash: string | number;
 }
 
-export default function RippleButton({ children, onClick }: RippleButtonProps) {
+export default function RippleButton({
+  rippleColor,
+  children,
+  onClick,
+}: RippleButtonProps) {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const [ripples, setRippling] = useState([] as Coord[]);
 
@@ -39,6 +44,7 @@ export default function RippleButton({ children, onClick }: RippleButtonProps) {
       {ripples.map((coord) => (
         <S.Ripple
           key={coord.hash}
+          rippleColor={rippleColor}
           style={{ top: coord.y, left: coord.x }}
           onAnimationEnd={() => ripple.end(coord.hash)}
         />

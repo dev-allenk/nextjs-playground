@@ -16,7 +16,7 @@ export const Button = styled.button`
   overflow: hidden;
 `;
 
-export const Ripple = styled.span`
+export const Ripple = styled.span<{ rippleColor?: string }>`
   position: absolute;
 
   content: "";
@@ -24,7 +24,7 @@ export const Ripple = styled.span`
   height: 10px;
   border-radius: 50%;
 
-  background-color: #ff1ead;
+  background-color: ${({ rippleColor }) => rippleColor || "#ff1ead"};
   transform: translate(-100%, -100%);
   opacity: 1;
 

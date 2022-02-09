@@ -1,5 +1,5 @@
-import { AppProps } from "next/app";
-import Header from "../components/Header";
+import { AppProps } from 'next/app'
+import Header from '../src/components/Header'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Header />
       <Component {...pageProps} />
     </>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

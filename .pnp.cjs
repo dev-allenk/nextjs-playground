@@ -37,11 +37,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/node", "npm:14.18.10"],
             ["@types/react", "npm:17.0.39"],
+            ["@types/react-lazyload", "npm:3.1.1"],
             ["@types/styled-components", "npm:5.1.22"],
             ["next", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:12.0.10"],
+            ["prop-types", "npm:15.8.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
+            ["react-lazyload", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:3.2.0"],
             ["recoil", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:0.6.1"],
             ["styled-components", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:5.3.3"],
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"]
@@ -408,6 +411,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/react-lazyload", [
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/@types-react-lazyload-npm-3.1.1-5bad1066dd-83fcdb58c9.zip/node_modules/@types/react-lazyload/",
+          "packageDependencies": [
+            ["@types/react-lazyload", "npm:3.1.1"],
+            ["@types/react", "npm:16.9.35"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/scheduler", [
         ["npm:0.16.1", {
           "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.1-9a58541608-2ff8034df0.zip/node_modules/@types/scheduler/",
@@ -745,11 +758,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nextjs-playground", "workspace:."],
             ["@types/node", "npm:14.18.10"],
             ["@types/react", "npm:17.0.39"],
+            ["@types/react-lazyload", "npm:3.1.1"],
             ["@types/styled-components", "npm:5.1.22"],
             ["next", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:12.0.10"],
+            ["prop-types", "npm:15.8.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
+            ["react-lazyload", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:3.2.0"],
             ["recoil", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:0.6.1"],
             ["styled-components", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:5.3.3"],
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"]
@@ -792,6 +808,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/postcss-value-parser-npm-4.1.0-4620e3e849-68a9ea27c7.zip/node_modules/postcss-value-parser/",
           "packageDependencies": [
             ["postcss-value-parser", "npm:4.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["prop-types", [
+        ["npm:15.8.1", {
+          "packageLocation": "./.yarn/cache/prop-types-npm-15.8.1-17c71ee7ee-c056d3f1c0.zip/node_modules/prop-types/",
+          "packageDependencies": [
+            ["prop-types", "npm:15.8.1"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"],
+            ["react-is", "npm:16.13.1"]
           ],
           "linkType": "HARD",
         }]
@@ -844,6 +872,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-is-npm-17.0.2-091bbb8db6-9d6d111d89.zip/node_modules/react-is/",
           "packageDependencies": [
             ["react-is", "npm:17.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["react-lazyload", [
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/cache/react-lazyload-npm-3.2.0-5a95ee4bd0-871a88c698.zip/node_modules/react-lazyload/",
+          "packageDependencies": [
+            ["react-lazyload", "npm:3.2.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:3.2.0", {
+          "packageLocation": "./.yarn/__virtual__/react-lazyload-virtual-bf91fad554/0/cache/react-lazyload-npm-3.2.0-5a95ee4bd0-871a88c698.zip/node_modules/react-lazyload/",
+          "packageDependencies": [
+            ["react-lazyload", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:3.2.0"],
+            ["@types/react", "npm:17.0.39"],
+            ["@types/react-dom", null],
+            ["react", "npm:17.0.2"],
+            ["react-dom", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react-dom",
+            "@types/react",
+            "react-dom",
+            "react"
           ],
           "linkType": "HARD",
         }]

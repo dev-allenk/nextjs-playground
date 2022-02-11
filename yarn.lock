@@ -294,6 +294,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-lazyload@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@types/react-lazyload@npm:3.1.1"
+  dependencies:
+    "@types/react": "*"
+  checksum: 83fcdb58c9e6ba9d67060ba30ebb5f7ba90f5c1b248cd8f818f74fcebf600d3440ddb4c229d295d093ff8c35870b6f74b6171e094c3ca9759a3d77a243e40700
+  languageName: node
+  linkType: hard
+
 "@types/react@npm:*":
   version: 16.9.35
   resolution: "@types/react@npm:16.9.35"
@@ -505,7 +514,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0":
+"loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -600,11 +609,14 @@ __metadata:
   dependencies:
     "@types/node": ^14.18.10
     "@types/react": ^17.0.39
+    "@types/react-lazyload": ^3.1.1
     "@types/styled-components": ^5.1.22
     next: ^12.0.10
+    prop-types: ^15.8.1
     react: ^17.0.2
     react-dom: ^17.0.2
     react-is: ^17.0.2
+    react-lazyload: ^3.2.0
     recoil: ^0.6.1
     styled-components: ^5.3.3
     typescript: ^4.5.5
@@ -643,6 +655,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prop-types@npm:^15.8.1":
+  version: 15.8.1
+  resolution: "prop-types@npm:15.8.1"
+  dependencies:
+    loose-envify: ^1.4.0
+    object-assign: ^4.1.1
+    react-is: ^16.13.1
+  checksum: c056d3f1c057cb7ff8344c645450e14f088a915d078dcda795041765047fa080d38e5d626560ccaac94a4e16e3aa15f3557c1a9a8d1174530955e992c675e459
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
@@ -656,7 +679,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.7.0":
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
@@ -667,6 +690,16 @@ __metadata:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
+"react-lazyload@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "react-lazyload@npm:3.2.0"
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    react-dom: ^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: 871a88c698a80c53ead85c293b493ac67c94e5980590094128c371e3f1e3d5bc17841ead1e7830771c87ece7fe677a6c9c323f3e6ce392a5f6f0328a36c38fe7
   languageName: node
   linkType: hard
 

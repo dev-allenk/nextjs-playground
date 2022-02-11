@@ -13,8 +13,8 @@ export default function Home() {
         </S.Box>
         <S.Box>
           <div></div>
-          <Link href="/ripple-button">
-            <S.Button>scenejs page</S.Button>
+          <Link href="/myrealtrip-career/my-ver">
+            <S.Button>career.myrealtrip clone my-ver.</S.Button>
           </Link>
         </S.Box>
       </S.Container>

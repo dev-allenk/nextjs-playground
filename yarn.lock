@@ -156,13 +156,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@daybrush/utils@npm:^1.0.0, @daybrush/utils@npm:^1.1.1, @daybrush/utils@npm:^1.3.1":
-  version: 1.6.0
-  resolution: "@daybrush/utils@npm:1.6.0"
-  checksum: 2579bc17e0d53ffbcb01c14c1f6baf32294f42b370e597d855e11cc5ab4de975502e91114c3e5bd05f76c8a6f83352c40ba60ac74c2fd1c3a741ce2e8899b137
-  languageName: node
-  linkType: hard
-
 "@emotion/is-prop-valid@npm:^0.8.8":
   version: 0.8.8
   resolution: "@emotion/is-prop-valid@npm:0.8.8"
@@ -277,15 +270,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scena/event-emitter@npm:^1.0.3":
-  version: 1.0.5
-  resolution: "@scena/event-emitter@npm:1.0.5"
-  dependencies:
-    "@daybrush/utils": ^1.1.1
-  checksum: 400e0f6ab847aff6c1a6a6b62a0187193bdf9dedbe002ac31764b104bddb3c3bd1631df4252f52aa1677879842e96359aca46e025ed78d53c01facf8c76a5559
-  languageName: node
-  linkType: hard
-
 "@types/hoist-non-react-statics@npm:*":
   version: 3.3.1
   resolution: "@types/hoist-non-react-statics@npm:3.3.1"
@@ -293,13 +277,6 @@ __metadata:
     "@types/react": "*"
     hoist-non-react-statics: ^3.3.0
   checksum: 2c0778570d9a01d05afabc781b32163f28409bb98f7245c38d5eaf082416fdb73034003f5825eb5e21313044e8d2d9e1f3fe2831e345d3d1b1d20bcd12270719
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^12.0.0":
-  version: 12.20.45
-  resolution: "@types/node@npm:12.20.45"
-  checksum: 9d52f90935af63921b2634b1b0fa4ccea53d9b9054e8becb44ff63d0aa2b1f8f9e21da1452862a4db3854e4535ea31c80f010089f785862b52bc39e85e896815
   languageName: node
   linkType: hard
 
@@ -317,15 +294,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^16.0.0":
-  version: 16.9.14
-  resolution: "@types/react-dom@npm:16.9.14"
-  dependencies:
-    "@types/react": ^16
-  checksum: 68a4ee88f7a56cdbfbca24b1936b9aa5dad8b40ffbf1f047ddf990454aec6e0c9da2a01c9ae87045e95236602061646c90d02f01281533e14f1970687873030f
-  languageName: node
-  linkType: hard
-
 "@types/react@npm:*":
   version: 16.9.35
   resolution: "@types/react@npm:16.9.35"
@@ -333,17 +301,6 @@ __metadata:
     "@types/prop-types": "*"
     csstype: ^2.2.0
   checksum: 74c605999ac3e16b2560fdb477c53a3110e02696732902440075d6b8be193c9134bc29a339675e52df3903c9f9441b8281d9ff0ffa024399e6297d30afba8837
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^16, @types/react@npm:^16.0.0":
-  version: 16.14.23
-  resolution: "@types/react@npm:16.14.23"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 2c765e87c25421c23c6a813ec2b27a909bb051a2d84c07a0d5368ef22dca0e1dbb02489a79274316ad900bcbb1bec9a7153908c7012db4e8bb4a1c3f704330f5
   languageName: node
   linkType: hard
 
@@ -451,18 +408,6 @@ __metadata:
   version: 1.0.0
   resolution: "css-color-keywords@npm:1.0.0"
   checksum: 8f125e3ad477bd03c77b533044bd9e8a6f7c0da52d49bbc0bbe38327b3829d6ba04d368ca49dd9ff3b667d2fc8f1698d891c198bbf8feade1a5501bf5a296408
-  languageName: node
-  linkType: hard
-
-"css-styled@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "css-styled@npm:1.0.0"
-  dependencies:
-    "@daybrush/utils": ^1.0.0
-    string-hash: ^1.1.3
-  peerDependencies:
-    "@daybrush/utils": ">=1.0.0"
-  checksum: 3f2f995938f03db4e691d1aa6e17e902eae8e6462da7f5b17964398c44466d7c799060268114b45de67824144498cafaa2f944c12257910a76c848581b969f44
   languageName: node
   linkType: hard
 
@@ -660,7 +605,6 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     react-is: ^17.0.2
-    react-scenejs: ^1.1.0
     recoil: ^0.6.1
     styled-components: ^5.3.3
     typescript: ^4.5.5
@@ -671,17 +615,6 @@ __metadata:
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
   checksum: fcc6e4ea8c7fe48abfbb552578b1c53e0d194086e2e6bbbf59e0a536381a292f39943c6e9628af05b5528aa5e3318bb30d6b2e53cadaf5b8fe9e12c4b69af23f
-  languageName: node
-  linkType: hard
-
-"order-map@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "order-map@npm:0.2.2"
-  dependencies:
-    "@daybrush/utils": ^1.0.0
-  peerDependencies:
-    "@daybrush/utils": ">=1.0.0"
-  checksum: 6b600ae6049f8e124632c085345cd548f2a18cde842300659311021b6f057bdba30c81dd69af789b9c080d9c91090dd711cbade125195688e40c53617a30d84b
   languageName: node
   linkType: hard
 
@@ -737,18 +670,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-scenejs@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "react-scenejs@npm:1.1.0"
-  dependencies:
-    "@types/node": ^12.0.0
-    "@types/react": ^16.0.0
-    "@types/react-dom": ^16.0.0
-    scenejs: ^1.0.1
-  checksum: 5712e0356eab83fe7f8a99ed605d86315033ef687934268988dbc0b4919fb23dbd0d86095a26d64cf68a089635a8860965c8cb166484a57998ed8f665e94285e
-  languageName: node
-  linkType: hard
-
 "react@npm:^17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
@@ -772,20 +693,6 @@ __metadata:
     react-native:
       optional: true
   checksum: 823c098e30f9b711f6e5d73ae3bf3c6d43ae6342998825f00ee18b01c88f499f7216fd59b472bd5ad349c6475e698e2937ad73b82499e31535bd63e431244146
-  languageName: node
-  linkType: hard
-
-"scenejs@npm:^1.0.1":
-  version: 1.5.0
-  resolution: "scenejs@npm:1.5.0"
-  dependencies:
-    "@daybrush/utils": ^1.3.1
-    "@scena/event-emitter": ^1.0.3
-    css-styled: ^1.0.0
-    order-map: ^0.2.2
-  peerDependencies:
-    order-map: ">=0.2.2"
-  checksum: 9e5c8ad77f3a2d49593692f9a7dc95e89906f0038cf49339d13d3ecdc75a1ae7d72a117f1b7188fa72c198865131635a01f08d48926e16da43c4f10f257d8927
   languageName: node
   linkType: hard
 
@@ -817,13 +724,6 @@ __metadata:
   version: 0.5.7
   resolution: "source-map@npm:0.5.7"
   checksum: 5dc2043b93d2f194142c7f38f74a24670cd7a0063acdaf4bf01d2964b402257ae843c2a8fa822ad5b71013b5fcafa55af7421383da919752f22ff488bc553f4d
-  languageName: node
-  linkType: hard
-
-"string-hash@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "string-hash@npm:1.1.3"
-  checksum: 104b8667a5e0dc71bfcd29fee09cb88c6102e27bfb07c55f95535d90587d016731d52299380052e514266f4028a7a5172e0d9ac58e2f8f5001be61dc77c0754d
   languageName: node
   linkType: hard
 

@@ -13,7 +13,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
-    "react-scenejs": "^1.1.0",
     "recoil": "^0.6.1",
     "styled-components": "^5.3.3"
   },

@@ -6,7 +6,6 @@ export const Header = styled.header`
   align-items: center;
 
   padding: 0 1em;
-  width: calc(100vw - 2em);
   height: 56px;
 `
 

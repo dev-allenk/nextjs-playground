@@ -6,7 +6,7 @@ export default function useIntersectRatio({
   rootMargin,
 }: IntersectionObserverInit = {}) {
   const [target, setTarget] = useState<HTMLElement | null>(null)
-  const [intersectRatio, setRatio] = useState(0)
+  const [intersectRatio, setRatio] = useState(1)
   const observer = useRef<IntersectionObserver>()
 
   useEffect(() => {

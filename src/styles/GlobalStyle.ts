@@ -31,5 +31,26 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+
+  @keyframes fadeIn {
+    from {
+      transform: translateY(5rem);
+      opacity: 0;
+    }
+    75% {
+      opacity: 1;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .toss-fade-in {
+    animation: fadeIn 500ms;
+  }
+  .toss-b4-fade-in {
+    transform: translateY(5rem);
+    opacity: 0;
+  }
 `
 export default GlobalStyle

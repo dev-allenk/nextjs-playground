@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-lazyload", "npm:3.1.1"],
             ["@types/styled-components", "npm:5.1.22"],
             ["next", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:12.0.10"],
+            ["normalize.css", "npm:8.0.1"],
             ["prop-types", "npm:15.8.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:17.0.2"],
@@ -761,6 +762,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-lazyload", "npm:3.1.1"],
             ["@types/styled-components", "npm:5.1.22"],
             ["next", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:12.0.10"],
+            ["normalize.css", "npm:8.0.1"],
             ["prop-types", "npm:15.8.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:d17c67894ab847ded8926a4f8c73ed5de66ca79613157089f85d5301ad58a1cd7c87f8b8fb6114299738a9541867539ee47631c27e25346d1391b873b2e05c99#npm:17.0.2"],
@@ -771,6 +773,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"]
           ],
           "linkType": "SOFT",
+        }]
+      ]],
+      ["normalize.css", [
+        ["npm:8.0.1", {
+          "packageLocation": "./.yarn/cache/normalize.css-npm-8.0.1-6124fb39b6-4698cae88e.zip/node_modules/normalize.css/",
+          "packageDependencies": [
+            ["normalize.css", "npm:8.0.1"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["object-assign", [

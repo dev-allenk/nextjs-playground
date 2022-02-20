@@ -612,6 +612,7 @@ __metadata:
     "@types/react-lazyload": ^3.1.1
     "@types/styled-components": ^5.1.22
     next: ^12.0.10
+    normalize.css: ^8.0.1
     prop-types: ^15.8.1
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -622,6 +623,13 @@ __metadata:
     typescript: ^4.5.5
   languageName: unknown
   linkType: soft
+
+"normalize.css@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "normalize.css@npm:8.0.1"
+  checksum: 4698cae88ec35e3f3e82f9f9402e6ffb906c27ccd6373cad88e6b3f5634fc7a043cb38702472299e5edb73825cf8b18d5fd9283f58829eddda79ea97453049a2
+  languageName: node
+  linkType: hard
 
 "object-assign@npm:^4.1.1":
   version: 4.1.1

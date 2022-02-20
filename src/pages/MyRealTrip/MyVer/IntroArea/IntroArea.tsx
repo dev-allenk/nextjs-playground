@@ -8,12 +8,13 @@ const MY_REAL_TRIP_IMAGE_PATH = `${IMAGE_BASE_PATH}/myrealtrip-career`
 const VIDEO_URL = 'https://career.myrealtrip.com/release/static/media/flight.f049c58c.mp4'
 
 const threshold = getThresholdBy(2)
+const SCALE_VALUE = 3.5
 
 export default function IntroArea() {
   const { setTarget, intersectRatio } = useIntersectRatio({ threshold })
 
   const opacity = intersectRatio
-  const transform = `scale(${11 - intersectRatio * 10})`
+  const transform = `scale(${SCALE_VALUE - intersectRatio * (SCALE_VALUE - 1)})`
 
   return (
     <S.IntroArea>

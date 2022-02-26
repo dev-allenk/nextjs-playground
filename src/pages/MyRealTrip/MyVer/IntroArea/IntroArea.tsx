@@ -15,9 +15,10 @@ export default function IntroArea() {
 
   const opacity = intersectRatio
   const transform = `scale(${SCALE_VALUE - intersectRatio * (SCALE_VALUE - 1)})`
+  const zIndex = intersectRatio === 0 ? -1 : 0
 
   return (
-    <S.IntroArea>
+    <S.IntroArea style={{ zIndex }}>
       <S.Container ref={setTarget}>
         <S.Video style={{ opacity }} src={VIDEO_URL} autoPlay loop muted />
         <S.ImageContainer style={{ opacity, transform }}>

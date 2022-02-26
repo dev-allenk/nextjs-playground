@@ -1,7 +1,9 @@
 import Picture from '@components/Picture'
 import styled, { css } from 'styled-components'
 
-export const IntroArea = styled.section``
+export const IntroArea = styled.section`
+  position: relative;
+`
 
 export const Container = styled.div`
   position: relative;

@@ -3,12 +3,14 @@ import styled, { css } from 'styled-components'
 
 export const IntroArea = styled.section`
   position: relative;
+
+  margin-bottom: 16rem;
 `
 
 export const Container = styled.div`
   position: relative;
   width: 100%;
-  height: 100vh; ;
+  height: 100vh;
 `
 
 export const BackgroundImage = styled(Picture)`

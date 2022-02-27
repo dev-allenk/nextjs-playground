@@ -7,7 +7,7 @@ export const MyRealTrip = styled.div`
   }
 `
 
-export const Container = styled.div`
+export const GuideLine1060 = styled.div`
   width: 106rem;
   margin: 0 auto;
 `

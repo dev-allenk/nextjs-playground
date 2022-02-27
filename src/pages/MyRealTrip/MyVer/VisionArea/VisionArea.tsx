@@ -1,20 +1,23 @@
 import FadeIn from '@components/FadeIn'
 import React from 'react'
 import * as S from './style'
+import * as CS from '../style'
 
 export default function VisionArea() {
   return (
     <S.VisionArea>
-      <S.Container>
-        <FadeIn>
-          <S.Title>지금, 마이리얼트립은</S.Title>
-        </FadeIn>
-        <FadeIn>
-          <S.Contents>
-            여행 산업에 찾아온 위기와 마이리얼트립에 있었던 변화들, 그리고 마이리얼트립의 비전을
-            소개합니다.
-          </S.Contents>
-        </FadeIn>
+      <CS.GuideLine1060>
+        <S.Container>
+          <FadeIn>
+            <CS.Title>지금, 마이리얼트립은</CS.Title>
+          </FadeIn>
+          <FadeIn>
+            <CS.Paragraph>
+              여행 산업에 찾아온 위기와 마이리얼트립에 있었던 변화들, 그리고 마이리얼트립의 비전을
+              소개합니다.
+            </CS.Paragraph>
+          </FadeIn>
+        </S.Container>
         <FadeIn>
           <S.VideoContainer>
             <iframe
@@ -28,7 +31,7 @@ export default function VisionArea() {
             ></iframe>
           </S.VideoContainer>
         </FadeIn>
-      </S.Container>
+      </CS.GuideLine1060>
     </S.VisionArea>
   )
 }

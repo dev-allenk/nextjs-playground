@@ -6,7 +6,7 @@ import FadeIn from '@components/FadeIn'
 export default function Opportunity() {
   return (
     <S.Opportunity>
-      <CS.Container>
+      <CS.GuideLine1060>
         <FadeIn>
           <CS.Title>
             여행이 멈춘 세상에서,
@@ -20,7 +20,7 @@ export default function Opportunity() {
             <br /> 여행이 멈춘 상황에서도 마이리얼트립은 새로운 기회와 성장을 만들어냈습니다.
           </CS.Paragraph>
         </FadeIn>
-      </CS.Container>
+      </CS.GuideLine1060>
     </S.Opportunity>
   )
 }

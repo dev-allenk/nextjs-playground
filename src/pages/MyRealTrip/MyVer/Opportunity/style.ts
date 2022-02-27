@@ -1,4 +1,3 @@
-import { flexCenter } from '@styles/styleUtils'
 import styled from 'styled-components'
 
 export const Opportunity = styled.section``

@@ -5,11 +5,11 @@ export const Home = styled.div``
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 30rem);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 30rem;
   column-gap: 4rem;
 
-  width: 1000px;
+  width: 100rem;
   margin: 0 auto;
 `
 

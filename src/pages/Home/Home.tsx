@@ -17,6 +17,12 @@ export default function Home() {
             <S.Button>career.myrealtrip clone my-ver.</S.Button>
           </Link>
         </S.Box>
+        <S.Box>
+          <div></div>
+          <Link href="/react-spring">
+            <S.Button>react-spring test page</S.Button>
+          </Link>
+        </S.Box>
       </S.Container>
     </S.Home>
   )

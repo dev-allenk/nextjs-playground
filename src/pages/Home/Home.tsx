@@ -7,8 +7,8 @@ export default function Home() {
       <S.Container>
         <S.Box>
           <div></div>
-          <Link href="/ripple-button">
-            <S.Button>ripple button page</S.Button>
+          <Link href="/playground">
+            <S.Button>playground page</S.Button>
           </Link>
         </S.Box>
         <S.Box>

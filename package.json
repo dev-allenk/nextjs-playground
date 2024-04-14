@@ -10,10 +10,6 @@
     "node": ">=20",
     "pnpm": ">=8.15.0"
   },
-  "workspaces": [
-    "services/*",
-    "packages/*"
-  ],
   "keywords": [],
   "author": "",
   "license": "ISC"

@@ -7,6 +7,12 @@ export default function Home() {
       <S.Container>
         <S.Box>
           <div></div>
+          <Link href="/한글주소/테스트">
+            <S.Button>한글주소 테스트</S.Button>
+          </Link>
+        </S.Box>
+        <S.Box>
+          <div></div>
           <Link href="/playground">
             <S.Button>playground page</S.Button>
           </Link>
